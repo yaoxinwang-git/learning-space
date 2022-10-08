@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3977ab1a-3a26-4ea5-b861-a310f46b0683" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../goSF/go1.19/go1.19" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../goSF/go1.16/go1.16.15/src/os/proc.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../goSF/go1.16/go1.16.15/src/runtime/debug.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../goSF/go1.16/go1.16.15/src/testing/testing.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../goSF/go1.19/go1.19/src/image/image.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../goSF/go1.19/go1.19/src/regexp/regexp.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../goSF/go1.19/go1.19/src/runtime/proc.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../goSF/go1.19/go1.19/src/sync/atomic/doc.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../goSF/go1.19/go1.19/src/sync/map.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../goSF/go1.19/go1.19/src/sync/waitgroup.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../goSF/go1.19/go1.19/src/time/sleep.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../goSF/go1.19/go1.19/src/time/time.go" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BYy6hmnPukCNwUv6ccTcwutteX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "D:/workspace/src/test/pachong",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\src\test\pachong" />
+      <recent name="D:\workspace\src\test\sync\loadconfig" />
+      <recent name="D:\workspace\src\test\task" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\src\test\pachong\case1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build test/context">
+    <configuration name="go build test/context" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="test/context" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/context/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test/json" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="test/json" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/json/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BenchmarkStructReturnPointer in test/function-return" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <working_directory value="$PROJECT_DIR$/function-return" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="test/function-return" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gobench" />
+      <pattern value="^\QBenchmarkStructReturnPointer\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BenchmarkStructReturnValue in test/function-return" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <working_directory value="$PROJECT_DIR$/function-return" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="test/function-return" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gobench" />
+      <pattern value="^\QBenchmarkStructReturnValue\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gobench test/function-return" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <working_directory value="$PROJECT_DIR$/function-return" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="test/function-return" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gobench" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build test/context" />
+        <item itemvalue="Go Build.go build test/json" />
+        <item itemvalue="Go Test.gobench test/function-return" />
+        <item itemvalue="Go Test.BenchmarkStructReturnPointer in test/function-return" />
+        <item itemvalue="Go Test.BenchmarkStructReturnValue in test/function-return" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/task/runner_async_test.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/task/runner.go</url>
+          <line>72</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/goroutinepool/main_test.go</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/select/main.go</url>
+          <line>77</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/lock/rwlock/main.go</url>
+          <line>32</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/sync/syncmap/main.go</url>
+          <line>30</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pachong/case1/main.go</url>
+          <line>28</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pachong/case2/main.go</url>
+          <line>96</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pachong/case3/main.go</url>
+          <line>29</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/json/main.go</url>
+          <line>45</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/json/main.go</url>
+          <line>80</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/json/main.go</url>
+          <line>61</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/json/main.go</url>
+          <line>64</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
