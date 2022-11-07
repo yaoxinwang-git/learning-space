@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3977ab1a-3a26-4ea5-b861-a310f46b0683" name="Default Changelist" comment="" />
+    <list default="true" id="3977ab1a-3a26-4ea5-b861-a310f46b0683" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mianshi/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuling/005.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuling/006.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuling/maptest.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuling/slicetest.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/getAbPath.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +31,9 @@
     </option>
   </component>
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../../goSF/go1.19/go1.19" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
@@ -27,6 +43,7 @@
     <setting file="file://$PROJECT_DIR$/../../../goSF/go1.16/go1.16.15/src/testing/testing.go" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../../../goSF/go1.19/go1.19/src/image/image.go" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../../../goSF/go1.19/go1.19/src/regexp/regexp.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../goSF/go1.19/go1.19/src/runtime/panic.go" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../../../goSF/go1.19/go1.19/src/runtime/proc.go" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../../../goSF/go1.19/go1.19/src/sync/atomic/doc.go" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../../../goSF/go1.19/go1.19/src/sync/map.go" root0="SKIP_INSPECTION" />
@@ -38,6 +55,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BYy6hmnPukCNwUv6ccTcwutteX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,12 +73,13 @@
     "WebServerToolWindowFactoryState": "false",
     "full.screen.before.presentation.mode": "false",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "D:/workspace/src/test/pachong",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "last_opened_file_path": "D:/workspace/src/test/proxy",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\src\test\proxy" />
       <recent name="D:\workspace\src\test\pachong" />
       <recent name="D:\workspace\src\test\sync\loadconfig" />
       <recent name="D:\workspace\src\test\task" />
@@ -69,73 +88,80 @@
       <recent name="D:\workspace\src\test\pachong\case1" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build test/context">
-    <configuration name="go build test/context" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build test/redis">
+    <configuration name="go build 006.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/tuling/006.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build maptest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/tuling/maptest.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build slicetest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/tuling/slicetest.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test/mianshi" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="test/context" />
+      <package value="test/mianshi" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/context/main.go" />
+      <filePath value="$PROJECT_DIR$/mianshi/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test/json" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test/redis" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="test/json" />
+      <package value="test/redis" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/json/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="BenchmarkStructReturnPointer in test/function-return" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <working_directory value="$PROJECT_DIR$/function-return" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="test/function-return" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gobench" />
-      <pattern value="^\QBenchmarkStructReturnPointer\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="BenchmarkStructReturnValue in test/function-return" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <working_directory value="$PROJECT_DIR$/function-return" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="test/function-return" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gobench" />
-      <pattern value="^\QBenchmarkStructReturnValue\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="gobench test/function-return" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <working_directory value="$PROJECT_DIR$/function-return" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="test/function-return" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gobench" />
+      <filePath value="$PROJECT_DIR$/redis/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build test/context" />
-        <item itemvalue="Go Build.go build test/json" />
-        <item itemvalue="Go Test.gobench test/function-return" />
-        <item itemvalue="Go Test.BenchmarkStructReturnPointer in test/function-return" />
-        <item itemvalue="Go Test.BenchmarkStructReturnValue in test/function-return" />
+        <item itemvalue="Go Build.go build test/redis" />
+        <item itemvalue="Go Build.go build test/mianshi" />
+        <item itemvalue="Go Build.go build 006.go" />
+        <item itemvalue="Go Build.go build maptest.go" />
+        <item itemvalue="Go Build.go build slicetest.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
@@ -207,6 +233,41 @@
           <url>file://$PROJECT_DIR$/json/main.go</url>
           <line>64</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/mianshi/main.go</url>
+          <line>8</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/tuling/005.go</url>
+          <line>23</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/tuling/slicetest.go</url>
+          <line>27</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/tuling/maptest.go</url>
+          <line>100</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/tuling/maptest.go</url>
+          <line>99</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/tuling/006.go</url>
+          <line>11</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/tuling/006.go</url>
+          <line>75</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
