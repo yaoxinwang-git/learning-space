@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-//异步执行任务
+// 异步执行任务
 type Runner struct {
 	//操作系统的信号检测
 	interrupt chan os.Signal
@@ -29,7 +29,7 @@ type Runner struct {
 	errs []error
 }
 
-//new一个Runner对象
+// new一个Runner对象
 func NewRunner(d time.Duration) *Runner {
 	return &Runner{
 		interrupt: make(chan os.Signal, 1),
@@ -40,12 +40,12 @@ func NewRunner(d time.Duration) *Runner {
 	}
 }
 
-//添加一个任务
+// 添加一个任务
 func (this *Runner) Add(tasks ...func(id int) error) {
 	this.tasks = append(this.tasks, tasks...)
 }
 
-//启动Runner，监听错误信息
+// 启动Runner，监听错误信息
 func (this *Runner) Start() error {
 
 	//接收操作系统信号
@@ -66,7 +66,7 @@ func (this *Runner) Start() error {
 	}
 }
 
-//异步执行所有的任务
+// 异步执行所有的任务
 func (this *Runner) Run() error {
 	for id, task := range this.tasks {
 		if this.gotInterrupt() {
@@ -92,7 +92,7 @@ func (this *Runner) Run() error {
 	return nil
 }
 
-//判断是否接收到操作系统中断信号
+// 判断是否接收到操作系统中断信号
 func (this *Runner) gotInterrupt() bool {
 	select {
 	case <-this.interrupt:
@@ -105,7 +105,7 @@ func (this *Runner) gotInterrupt() bool {
 	}
 }
 
-//获取执行完的error
+// 获取执行完的error
 func (this *Runner) GetErrs() []error {
 	return this.errs
 }

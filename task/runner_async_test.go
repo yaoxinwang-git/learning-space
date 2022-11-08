@@ -50,7 +50,7 @@ func TestRunnerAsync_Start(t *testing.T) {
 
 }
 
-//创建要执行的任务
+// 创建要执行的任务
 func createTaskAsync() func(id int) {
 	return func(id int) {
 		fmt.Printf("正在执行%v个任务\n", id)

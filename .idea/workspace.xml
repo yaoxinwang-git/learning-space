@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3977ab1a-3a26-4ea5-b861-a310f46b0683" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mianshi/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuling/005.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuling/006.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuling/maptest.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuling/slicetest.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/getAbPath.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/golang-note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learning-space.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atomic/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/atomic/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mianshi/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/err.go" beforeDir="false" afterPath="$PROJECT_DIR$/task/err.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/runner.go" beforeDir="false" afterPath="$PROJECT_DIR$/task/runner.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/runner_async.go" beforeDir="false" afterPath="$PROJECT_DIR$/task/runner_async.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/runner_async_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/task/runner_async_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/runner_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/task/runner_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +72,9 @@
     "WebServerToolWindowFactoryState": "false",
     "full.screen.before.presentation.mode": "false",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "D:/workspace/src/test/proxy",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "last_opened_file_path": "D:/workspace/src/learning-space",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editing.templates"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -85,12 +85,13 @@
       <recent name="D:\workspace\src\test\task" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\src\learning-space\notes" />
       <recent name="D:\workspace\src\test\pachong\case1" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build test/redis">
     <configuration name="go build 006.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="test" />
+      <module name="learning-space" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="test" />
@@ -99,7 +100,7 @@
       <method v="2" />
     </configuration>
     <configuration name="go build maptest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="test" />
+      <module name="learning-space" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="test" />
@@ -108,7 +109,7 @@
       <method v="2" />
     </configuration>
     <configuration name="go build slicetest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="test" />
+      <module name="learning-space" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="test" />
@@ -117,7 +118,7 @@
       <method v="2" />
     </configuration>
     <configuration name="go build test/mianshi" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="test" />
+      <module name="learning-space" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <package value="test/mianshi" />
@@ -126,7 +127,7 @@
       <method v="2" />
     </configuration>
     <configuration name="go build test/redis" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="test" />
+      <module name="learning-space" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <package value="test/redis" />

@@ -52,7 +52,7 @@ func TestRunner_Start(t *testing.T) {
 
 }
 
-//创建要执行的任务
+// 创建要执行的任务
 func createTask() func(id int) error {
 	return func(id int) error {
 		fmt.Printf("正在执行%v个任务\n", id)
