@@ -5282,7 +5282,7 @@ Modules 官方定义为：
 | verify   | verify dependencies have expected content (验证依赖是否正确） |
 | why      | explain why packages or modules are needed(解释为什么需要依赖) |
 
-- 常用的有 `init tdiy edit`
+- 常用的有 `init tidy edit`
 
 **使用go get命令下载指定版本的依赖包：**
 
