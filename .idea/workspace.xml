@@ -4,22 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3977ab1a-3a26-4ea5-b861-a310f46b0683" name="Default Changelist" comment="新增golang学习笔记">
-      <change afterPath="$PROJECT_DIR$/tmp/001/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/002/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/002/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/002/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/004/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/005/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/006/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuling/cmd/10.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuling/cmd/cat.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuling/cmd/yyy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuling/tmp.go" afterDir="false" />
+    <list default="true" id="3977ab1a-3a26-4ea5-b861-a310f46b0683" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/tmp/007/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/008/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/009/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/golang-note.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/golang-note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/面试.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/006/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/006/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +90,25 @@
       <recent name="D:\workspace\src\test\pachong\case1" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build test/tmp/006">
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learning-space" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/tmp/006/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learning-space" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/tmp/008/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learning-space" />
       <working_directory value="$PROJECT_DIR$" />
@@ -107,24 +116,6 @@
       <package value="test" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/tmp/005/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build test/tmp/002" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learning-space" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="test/tmp/002" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/002/002.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build test/tmp/004" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learning-space" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="test/tmp/004" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/004/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build test/tmp/006" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -136,22 +127,22 @@
       <filePath value="$PROJECT_DIR$/tmp/006/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test/tuling/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test/tmp/007" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learning-space" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="test/tuling/cmd" />
+      <package value="test/tmp/007" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tuling/cmd/10.go" />
+      <filePath value="$PROJECT_DIR$/tmp/007/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build test/tmp/007" />
         <item itemvalue="Go Build.go build test/tmp/006" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build test/tmp/004" />
-        <item itemvalue="Go Build.go build test/tmp/002" />
-        <item itemvalue="Go Build.go build test/tuling/cmd" />
       </list>
     </recent_temporary>
   </component>
@@ -171,9 +162,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
     <MESSAGE value="新增golang学习笔记" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增golang学习笔记" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
