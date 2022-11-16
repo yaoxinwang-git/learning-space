@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3977ab1a-3a26-4ea5-b861-a310f46b0683" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/tmp/007/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/008/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/009/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/010/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/011/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/面试.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/006/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/006/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/009/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/009/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,58 +88,28 @@
       <recent name="D:\workspace\src\test\pachong\case1" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (2)">
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learning-space" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="test" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/006/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learning-space" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="test" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/008/main.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build test/tmp/012">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learning-space" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="test" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/005/main.go" />
+      <filePath value="$PROJECT_DIR$/tmp/011/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test/tmp/006" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test/tmp/012" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learning-space" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="test/tmp/006" />
+      <package value="test/tmp/012" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/006/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build test/tmp/007" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learning-space" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="test/tmp/007" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/007/main.go" />
+      <filePath value="$PROJECT_DIR$/tmp/012/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build test/tmp/007" />
-        <item itemvalue="Go Build.go build test/tmp/006" />
+        <item itemvalue="Go Build.go build test/tmp/012" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
@@ -281,6 +249,16 @@
           <url>file://$PROJECT_DIR$/tmp/002/main.go</url>
           <line>24</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/tmp/010/main.go</url>
+          <line>20</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/tmp/009/main.go</url>
+          <line>30</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
