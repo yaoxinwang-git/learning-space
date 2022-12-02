@@ -5,7 +5,9 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 //	func main() {
 //		//var whatever = [5]int{1, 2, 3, 4, 5}
@@ -45,7 +47,7 @@ func printMsgType(msg struct {
 	// 使用动词%T打印msg的类型
 	fmt.Printf("%T\n, msg:%v", msg, msg)
 }
-func main() {
+func main2() {
 	// 实例化一个匿名结构体
 	msg := &struct { // 定义部分
 		id   int
@@ -55,4 +57,9 @@ func main() {
 		"hello",
 	}
 	printMsgType(*msg)
+}
+
+func main() {
+	//
+
 }
