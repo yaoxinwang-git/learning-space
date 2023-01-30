@@ -1,65 +1,68 @@
-/**
- * @Author xinwang_yao
- * @Date 2022/11/9 14:59
- **/
-
 package main
 
 import (
+	"bytes"
 	"fmt"
+	"sync"
+	"time"
 )
 
-//	func main() {
-//		//var whatever = [5]int{1, 2, 3, 4, 5}
-//		//for i, _ := range whatever {
-//		//	//函数正常执行,由于闭包用到的变量 i 在执行的时候已经变成4,所以输出全都是4.
-//		//	y := i
-//		//	defer func() { fmt.Println(y) }()
-//		//}
-//		//
-//		//b := new(int)
-//		//*b = 64
-//		//
-//		//fmt.Println(b)
-//
-//		type Player struct {
-//			Name        string
-//			HealthPoint int
-//			MagicPoint  int
-//		}
-//		tank := new(Player)
-//		tank.Name = "ms"
-//		tank.HealthPoint = 300
-//
-//		//tank1 := &Player{}
-//		var a *Player
-//		a.MagicPoint = 10
-//		a.HealthPoint = 10
-//		a.Name = "test"
-//		fmt.Printf("%T", a)
-//	}
-//
-// 打印消息类型, 传入匿名结构体
-func printMsgType(msg struct {
-	id   int
-	data string
-}) {
-	// 使用动词%T打印msg的类型
-	fmt.Printf("%T\n, msg:%v", msg, msg)
-}
-func main2() {
-	// 实例化一个匿名结构体
-	msg := &struct { // 定义部分
-		id   int
-		data string
-	}{ // 值初始化部分
-		1024,
-		"hello",
-	}
-	printMsgType(*msg)
+/**
+*ticker只要定义完成，从此刻开始计时，不需要任何其他的操作，每隔固定时间都会触发。
+*timer定时器，是到固定时间后会执行一次
+*如果timer定时器要每隔间隔的时间执行，实现ticker的效果，使用 func (t *Timer) Reset(d Duration) bool
+ */
+func main101() {
+	var wg sync.WaitGroup
+	wg.Add(2)
+	//NewTimer 创建一个 Timer，它会在最少过去时间段 d 后到期，向其自身的 C 字段发送当时的时间
+	timer1 := time.NewTimer(2 * time.Second)
+
+	//NewTicker 返回一个新的 Ticker，该 Ticker 包含一个通道字段，并会每隔时间段 d 就向该通道发送当时的时间。它会调
+	//整时间间隔或者丢弃 tick 信息以适应反应慢的接收者。如果d <= 0会触发panic。关闭该 Ticker 可
+	//以释放相关资源。
+	ticker1 := time.NewTicker(2 * time.Second)
+
+	go func(t *time.Ticker) {
+		defer wg.Done()
+		for {
+			<-t.C
+			fmt.Println("get ticker1", time.Now().Format("2006-01-02 15:04:05"))
+		}
+	}(ticker1)
+
+	go func(t *time.Timer) {
+		defer wg.Done()
+		for {
+			<-t.C
+			fmt.Println("get timer", time.Now().Format("2006-01-02 15:04:05"))
+			//Reset 使 t 重新开始计时，（本方法返回后再）等待时间段 d 过去后到期。如果调用时t
+			//还在等待中会返回真；如果 t已经到期或者被停止了会返回假。
+			t.Reset(2 * time.Second)
+		}
+	}(timer1)
+
+	wg.Wait()
 }
 
 func main() {
-	//
+	rd := bytes.NewBufferString("Hello World!")
+	buf := make([]byte, 6)
+	// 获取数据切片
+	b := rd.Bytes()
+	// 读出一部分数据，看看切片有没有变化
+	rd.Read(buf)
+	fmt.Printf("%s\n", rd.String())
+	fmt.Printf("%s\n\n", b)
+	fmt.Printf("%s\n\n", buf)
 
+	// 写入一部分数据，看看切片有没有变化
+	rd.Write([]byte("abcdefg"))
+	fmt.Printf("%s\n", rd.String())
+	fmt.Printf("%s\n\n", b)
+
+	// 再读出一部分数据，看看切片有没有变化
+	rd.Read(buf)
+	fmt.Printf("%s\n", rd.String())
+	fmt.Printf("%s\n", b)
 }
